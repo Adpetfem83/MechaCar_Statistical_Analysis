@@ -53,17 +53,12 @@ Suspension Coils Cumulative T-test
 ### Delivaerable 4 ..........................................................................................................
 
 ## Study Design: MechaCar vs Competition
-Due to the fact that, there are a number of factors the customers take into consideration when evaluating a car to purchase. Thus, customers looking to buy a car are looking for more than just a conveyance. Therefore, they are looking for a car that is economically viable in terms of fuel utilization and consumption, reliable, durable, and not too expensive a car.
-
-A new study can be developed to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
-
-
+Due to the fact that, there are a number of factors the customers take into consideration when evaluating a car to purchase. Thus, customers looking to buy a car are looking for more than just a conveyance. Therefore, they are looking for a car that is economically viable in terms of fuel utilization and consumption, reliable, durable, and not too expensive a car. ana,  in line with this, study can be developed to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
 First and foremost, we can use a wide range of metrics to perform this analysis namely Current price, Re-sale value, MPG, Annual cost and fuel efficiency etc.
-
 For the purpose of this study, i will use the city and highway fuel efficiency metrics.
 
-### Null and Alternate Hypothesis
+### Null and Alternate Hypotheses
 H<sub>0</sub>: MechaCar prototypes "Vehicles in the same class with the competitors have the same fuel efficiency".
 
 H<sub>a</sub>: MechaCar prototypes "Vehicles in the same class  with the competitors do not have the same fuel efficiency".
