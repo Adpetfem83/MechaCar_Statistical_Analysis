@@ -53,13 +53,25 @@ Suspension Coils Cumulative T-test
 ### Delivaerable 4 ..........................................................................................................
 
 ## Study Design: MechaCar vs Competition
-There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
-### Metric to test
-To narrow down our test, we should evaluate MechaCar's carrying capacity, in cubic inches, in comparison to various competitors' vehicles.
+Due to the fact that, there are a number of factors the customers take into consideration when evaluating a car to purchase. Thus, customers looking to buy a car are looking for more than just a conveyance. Therefore, they are looking for a car that is economically viable in terms of fuel utilization and consumption, reliable, durable, and not too expensive a car.
+
+A new study can be developed to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+
+
+First and foremost, we can use a wide range of metrics to perform this analysis namely Current price, Re-sale value, MPG, Annual cost and fuel efficiency etc.
+
+For the purpose of this study, i will use the city and highway fuel efficiency metrics.
+
 ### Null and Alternate Hypothesis
-H<sub>0</sub>: MechaCar prototypes' average carrying capacity is similar to competitor's vehicles in the same vehicle class
-H<sub>a</sub>: MechaCar prototypes' average carrying capacity is statistically above or below that of competitor vehicles.
+H<sub>0</sub>: MechaCar prototypes "Vehicles in the same class with the competitors have the same fuel efficiency".
+
+H<sub>a</sub>: MechaCar prototypes "Vehicles in the same class  with the competitors do not have the same fuel efficiency".
+
 ### Statistical Test Used
-The best statistical test for this would be two-sample t-tests.
+The best statistical test for the purpose of this study would be multiple linear regression.
+
 ### What data is needed
-We would need to gather cubic space data from the carrying compartments of all MechaCar prototypes, as well as from all major competitor vehicles.
+The data needed for this analysis will be the information on all identified metrics over the past five years accross all the manufacturers.
+
+
