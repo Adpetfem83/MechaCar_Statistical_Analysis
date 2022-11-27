@@ -1,6 +1,6 @@
 
 # MechaCar Statistical Analysis
-Statisitical analysis of automobile performance using R
+Statisitical analysis of automobile performance using R.
 
 ## Overview
 
@@ -14,7 +14,7 @@ I will be performing the following analysis to help the team;
 * Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.
 
 * Run t-tests to determine if the manufacturing lots are statistically different from the mean population.
-
+   
 * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
 
 
@@ -24,7 +24,7 @@ I will be performing the following analysis to help the team;
 ### Linear Regression to Predict MPG
 ![Multiple Linear Regression on MPG](https://github.com/Adpetfem83/MechaCar_Statistical_Analysis/blob/main/Images/mpg_linear_regres_summary.png)
 
-* The most significant variables in our dataset which show a non-random effect on the MPG of the MechaCar are the **Vehicle Length** and the **Ground Clearance**. As indicated by the yellow arrows in the image above, a linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup>, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
+* The most significant variables in our dataset which show a non-random effect on the MPG of the MechaCar are the **Vehicle Length** andb the **Ground Clearance**. As indicated by the yellow arrows in the image above, a linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup>, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
 * The slope of the linear model can not be considered to be zero, as the p-value of 5.35x10<sup>-11</sup>, indicated by the orange arrow above, is lower than even an extreme level of significance, and thus the null hypothesis must be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
 * Although there are still unconsidered factors, this model does predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149, highlighted in the purple box, indicates that the model is 71% accurate... though it could probably do better.
 
