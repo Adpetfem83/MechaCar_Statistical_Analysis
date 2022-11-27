@@ -20,29 +20,37 @@ Therefore, I will be performing the following analyses to help the team;
 
 ## Results
 
+### Deliverable 1........................................................................................................
+
 ### Linear Regression to Predict MPG
 ![Multiple Linear Regression on MPG](https://github.com/Adpetfem83/MechaCar_Statistical_Analysis/blob/main/Images/mpg_linear_regres_summary.png)
 
 * The variables that are most significant in the dataset which show a non-random effect on the MPG of the MechaCar are the **Vehicle Length** and the **Ground Clearance**. As indicated in the image above, a linear regression model run on these variables against figures for MPG, resulted in p-values of 2.6x10<sup>-12</sup> and 5.21x10<sup>-8</sup>, respectively. The intercept was also statistically significant, indicating that there are likely other factors, not included in our dataset, that have a strong impact on the MPG.
 * The above image shows the p-value to be 5.35x10<sup>-11</sup>, and is lower than the extreme level of significance, and therefore, the null hypothesis must be rejected. This means that the relationship between our variables and the miles per gallon is subject to more than random chance.
-* Although there are other factors that need to be considered, however, this model predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149 indicates that the model is 71% accurate, and could perhaps be better than this.
+* Although there are other factors that need to be considered, however, this model predict the mpg of the MechaCar prototype with some relative effectiveness. The r-squared value of 0.7149 indicates that the model is 71% accurate.
 
+### Deliverable 2 .........................................................................................................
 ### Summary Statistics on Suspension Coils
 ![Suspension Coil Total Summary](https://github.com/Adpetfem83/MechaCar_Statistical_Analysis/blob/main/Images/us_coil_total_summary_1.png)
 ![Suspension Coil Lot Summary](https://github.com/Adpetfem83/MechaCar_Statistical_Analysis/blob/main/Images/sus_coil_total_summary_2.png)
-* While the overall variance, as shown in the Total Summary data above, is under 100 psi and meets specifications, there is a problem with one of the individual lots. As shown in the Lot Summary statistics, the variance for Lot 3 is well over the acceptable threshold, at 170.28.
+* Although, the overall variance as shown in the total Summary data above is under 100 psi and meets specifications, however, there is a problem with one of the individual lots. The variance for Lot 3 is well above the acceptable threshold, at 170.28.
+
+
+### Deliverable 3 ..........................................................................................................
 
 ### T-Tests on Suspension Coils
 Suspension Coils Cumulative T-test
 ![Suspension Coils Cumulative T-test](https://github.com/Adpetfem83/MechaCar_Statistical_Analysis/blob/main/Images/total_sus_coil_one_sample_ttest.png)
-* A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value is not low enough (0.0603) for us to reject the null hypothesis.
+* A review of the results of the T-test for the suspension coils across all manufacturing lots shows that they are not statistically different from the population mean, and the p-value (0.063)is higher than the level of significance (0.05) for us to reject the null hypothesis.
 ![Suspension Coil Lot 1 T-test](https://github.com/Adpetfem83/MechaCar_Statistical_Analysis/blob/main/Images/sus_coil_one_sample_ttest_lot1.png)
 * A review of the results of the T-test for the suspension coils for Lot 1 shows that they are not statistically different from the population mean, and the p-value is not low enough (1) for us to reject the null hypothesis.
 ![Suspension Coil Lot 2 T-test](https://github.com/Adpetfem83/MechaCar_Statistical_Analysis/blob/main/Images/sus_coil_one_sample_ttest_lot2.png)
 * A review of the results of the T-test for the suspension coils for Lot 2 shows that they are not statistically different from the population mean, and the p-value is not low enough (0.6072) for us to reject the null hypothesis.
 ![Suspension Coil Lot 3 T-test](https://github.com/Adpetfem83/MechaCar_Statistical_Analysis/blob/main/Images/sus_coil_one_sample_ttest_lot3.png)
-* A review of the results of the T-test for the suspension coils for Lot 3 shows that they are slightly statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
+* Meanwhile, a review of the results of the T-test for the suspension coils for Lot 3 shows that they are statistically different from the population mean, and the p-value is just low enough (0.0417) for us to reject the null hypothesis. Furthermore, I think this lot needs to be discarded, or closely re-evaluated.
 
+
+### Delivaerable 4 ..........................................................................................................
 ## Study Design: MechaCar vs Competition
 There are many factors that consumers take into consideration when evaluating a car to purchase. However, in a world where ridesharing is becoming more ubiquitous and it's easy and cheap to get around in other people's vehicles, customers looking to purchase a car are looking for more than just a conveyance. They will be looking to buy a car that is an economical means to regularly transport themselves and their items on a reliable, regular basis.
 ### Metric to test
