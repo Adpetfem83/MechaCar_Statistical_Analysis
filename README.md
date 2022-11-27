@@ -4,10 +4,9 @@ Statisitical analysis of automobile performance using R.
 
 ## Overview
 
-The purpose of this project is to perform an analysis to help the management of AutosRUs in understanding the 
-production troubles that are hindering the manufacturing team's progress in their newest prototype "The MechaCar". 
+The purpose of this challenge is to perform an analysis to help the management of AutosRUs in understanding the production troubles that are hindering the manufacturing team's progress in their newest prototype "The MechaCar". 
 
-I will be performing the following analysis to help the team;
+Therefore, I will be performing the following analyses to help the team;
 
 * Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
 
